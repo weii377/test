@@ -1,0 +1,118 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <style>
+        #features img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card {
+            border: none;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        #banner {
+            height: 400px;
+            background: url('https://images.pexels.com/photos/29906792/pexels-photo-29906792.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#features">New Arrivals</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Products</a></li>
+                
+                <li class="nav-item"><a class="nav-link" href="shop.html">Second Page</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div id="banner">
+    </div>
+
+    
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="https://images.pexels.com/photos/6046226/pexels-photo-6046226.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="New Arrival 1">
+                    <h3>灰色西裝短版外套</h3>
+                    <p>$350</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://images.pexels.com/photos/10326829/pexels-photo-10326829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="New Arrival 2">
+                    <h3>白色高領無袖上衣</h3>
+                    <p>$400</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://images.pexels.com/photos/6030232/pexels-photo-6030232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="New Arrival 3">
+                    <h3>毛絨保暖毛衣 (白/紅)</h3>
+                    <p>$490</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Products</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.pexels.com/photos/65676/nanjing-studio-jeans-65676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Product 1">
+                    <h3>黑色牛仔褲</h3>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://images.pexels.com/photos/3205758/pexels-photo-3205758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Product 2">
+                    <h3>卡其色羽絨外套</h3>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://media.istockphoto.com/id/1167815184/photo/mens-white-blank-hoodie-template-from-two-sides-natural-shape-on-invisible-mannequin-for-your.jpg?s=2048x2048&w=is&k=20&c=cFjstNyd38MSjFiPdW7SfLCu5MHSAgv9msjWY45sSw0=" class="img-fluid rounded" alt="Product 3">
+                    <h3>米白色連帽帽T</h3>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://media.istockphoto.com/id/1094594204/zh/%E7%85%A7%E7%89%87/%E5%A5%B3%E5%AD%A9%E7%9A%84%E8%A1%A3%E6%9C%8D%E7%AF%80%E6%97%A5%E7%BE%8E%E9%BA%97%E7%9A%84%E7%B2%89%E7%B4%85%E8%89%B2%E5%B0%8F%E5%A5%B3%E5%AD%A9%E6%AF%9B%E8%A1%A3%E6%88%96%E9%87%9D%E7%B9%94%E7%BE%8A%E6%AF%9B%E8%A1%AB%E9%9A%94%E9%9B%A2%E5%9C%A8%E7%99%BD%E8%89%B2%E7%9A%84%E8%83%8C%E6%99%AF%E5%85%92%E7%AB%A5%E5%92%8C%E5%85%92%E7%AB%A5%E6%99%82%E5%B0%9A.jpg?s=612x612&w=0&k=20&c=Bm3xtZ_3R9LHzbQK2KKmCjyolLjS0053iCodQbq_dZ4=" class="img-fluid rounded" alt="Product 4">
+                    <h3>粉色針織上衣(外套)</h3>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://media.istockphoto.com/id/1138107529/zh/%E7%85%A7%E7%89%87/%E6%9C%A8%E8%83%8C%E6%99%AF%E8%A3%99%E5%AD%90.jpg?s=2048x2048&w=is&k=20&c=Y4Jeg6UXuZVfNTwKNT6qNRXQZAD226i10mnNISv8wCI=" class="img-fluid rounded" alt="Product 5">
+                    <h3>復古格紋百褶裙</h3>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://media.istockphoto.com/id/1356720148/zh/%E7%85%A7%E7%89%87/winter-childrens-knitted-hat-and-scarf-in-blue.jpg?s=612x612&w=0&k=20&c=Igo06hBhodYb6USipFBSfYwkPMIQJTdBopbWSGtr6ZA=" class="img-fluid rounded" alt="Product 6">
+                    <h3>顯白保暖套組</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="text-center">&copy; 2024 My Website</div>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>
